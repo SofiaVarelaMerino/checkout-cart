@@ -1,10 +1,12 @@
 import React from 'react';
+import { ShoppingCart, OrderSummary } from '../../components/index';
 import './styles/main.css';
 
 const App = () => {
   return (
     <main className='App'>
-      <h1>Hello World</h1>
+      <ShoppingCart />
+      <OrderSummary />
     </main>
   )
 };
