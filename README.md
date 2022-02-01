@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+# Checkout Cart
+![node](https://img.shields.io/badge/node-v14-blue) &nbsp;&nbsp;
+<img alt="React" title="React" width='25' src="https://img.icons8.com/color/30/000000/react-native.png"/>&nbsp;&nbsp;
+<img alt="Redux" title="Redux" width='25' src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"/>&nbsp;&nbsp;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Frontend project of a shopping cart. Built with react and redux
 
+[Link to challenge](https://gitlab.com/cabify-challenge/frontend-shopping-cart-challenge-SofiaVarelaMerino)
+
+## Environment setup
+
+ - Install [Node.js](https://nodejs.org/)
+   - Recommended method is by using [NVM](https://github.com/creationix/nvm)
+   - Recommended Node.js version is the latest, currently v14.16.0
+ - Run `npm install` to install the project dependencies.
+ - Run `npm start` to run the project
+ 
 ## Available Scripts
+The following commands can be executed.
+`````
+npm start
+npm test
+npm run build
+npm run eject
+npm run lint
+`````
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Improvement opportunities
+- Se puede crear un reducer con los descuentos. Lo que permitiría tener la informacion y los calculos separados por tema; lo que ayudaria al momento de renderizado para que no esté estatica la información.
