@@ -4,8 +4,8 @@ import { ProductList } from '..'
 
 const setup = () => {
   const props = {
-    title: 'Shopping Cart',
-    children: <div><h2>Hola</h2></div>
+    title: <h2>Hola</h2>,
+    children: <div><p>Sofia</p></div>
   }
 
   const component = shallow(
@@ -23,10 +23,10 @@ const setup = () => {
 describe('ProductsList Component', () => {
   it('Render correctly', () => {
     const { ulTitle } = setup();
-    expect(ulTitle.text()).toMatch(/^Shopping Cart/)
+    expect(ulTitle.text()).toMatch(/^Hola/)
   })
   it('Should render children', () => {
     const { children } = setup()
-    expect(children.text()).toMatch(/^Hola/)
+    expect(children.text()).toMatch(/^Sofia/)
   })
 });

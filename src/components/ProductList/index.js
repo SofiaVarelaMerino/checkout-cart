@@ -9,6 +9,6 @@ export const ProductList = ({ title, children }) => (
 )
 
 ProductList.propTypes = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.node.isRequired,
   children: PropTypes.node.isRequired
 }

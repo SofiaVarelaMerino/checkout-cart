@@ -6,7 +6,10 @@ export const Price = ({ value, currency, classNameValue }) => (
 );
 
 Price.propTypes = {
-  value: PropTypes.number.isRequired,
+  value: PropTypes.oneOfType([
+    PropTypes.string,
+    PropTypes.number
+  ]).isRequired,
   currency: PropTypes.string.isRequired,
   classNameValue: PropTypes.string
 };
