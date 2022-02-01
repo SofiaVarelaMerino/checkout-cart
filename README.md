@@ -26,4 +26,8 @@ npm run lint
 `````
 
 ## Improvement opportunities
+- No logré incorporar el Modal dentro de las 8 horas dedicadas al challenge. ¿Como hubiera resuelto esta parte? Primero crearia un componente `Modal` genérico que tenga un children adentro. Llamaría al modal desde el componente `Producto` en donde aqui crearía el children del Modal sin problemas ya que tengo todos los datos y dispatch necesarios.
 - Se puede crear un reducer con los descuentos. Lo que permitiría tener la informacion y los calculos separados por tema; lo que ayudaria al momento de renderizado para que no esté estatica la información.
+
+
+
