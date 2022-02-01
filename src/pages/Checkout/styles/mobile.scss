@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1024px) {
+  .App {
+    overflow-x: auto !important;
+  }
+
+  .products {
+    min-width: 500px;
+  }
+
+  .summary {
+    min-width: 300px;
+  }
+}
