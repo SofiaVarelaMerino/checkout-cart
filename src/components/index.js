@@ -5,3 +5,4 @@ export * from './ProductDetail';
 export * from './ProductList';
 export * from './Product';
 export * from './Discount';
+export * from './OrderSummary';
