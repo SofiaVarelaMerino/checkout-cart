@@ -11,7 +11,7 @@
 
  - Install [Node.js](https://nodejs.org/)
    - Recommended method is by using [NVM](https://github.com/creationix/nvm)
-   - Recommended Node.js version is the latest, currently v14.16.0
+   - Recommended Node.js version is the v14.16.0
  - Run `npm install` to install the project dependencies.
  - Run `npm start` to run the project
  
